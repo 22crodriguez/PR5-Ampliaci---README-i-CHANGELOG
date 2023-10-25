@@ -1,63 +1,101 @@
-# Change Log
+# Título del Proyecto
 
-All notable changes to this project will be documented in this file.
+Proyecto Ingenioso - Transforma tus Ideas en Realidad
 
-The format is based on Keep a Changelog, and this project adheres to Semantic Versioning.
+## Comenzando 🚀
 
-## [Unreleased]
+Estas instrucciones te guiarán para obtener una copia del proyecto en funcionamiento en tu máquina local con el propósito de desarrollo y pruebas.
 
-### Added
+Consulta la sección "Despliegue" para obtener información sobre cómo desplegar el proyecto.
 
-- Exciting new feature that enhances user engagement
-- Integration with a cutting-edge AI chatbot
-- Streamlined user onboarding process
-- Customizable user profiles
-- Dark mode for the app
+## Pre-requisitos 📋
 
-### Changed
+Antes de comenzar, asegúrate de tener instalados los siguientes elementos:
 
-- Improved performance and responsiveness
-- Updated design elements for a fresh look
-- Enhanced security measures
-- Refined user interface for a more intuitive experience
+- [Node.js](https://nodejs.org/)
+- [MongoDB](https://www.mongodb.com/)
+- Navegador web moderno
 
-### Deprecated
+## Instalación 🔧
 
-- Support for older devices and operating systems
+Sigue estos pasos para instalar y configurar el entorno de desarrollo:
 
-### Removed
+1. Clona el repositorio en tu máquina local:
 
-- Legacy code and deprecated functionalities
-- Outdated third-party libraries
-- Unused assets and resources
+git clone https://github.com/tu-usuario/tu-proyecto.git
 
-### Fixed
+2. En la raíz del proyecto, instala las dependencias:
 
-- Several bug fixes and performance optimizations
-- Addressed user-reported issues
-- Improved error handling and reporting
+npm install
 
-### Security
+3. Configura el archivo de entorno `.env` con tus variables de entorno.
 
-- Implemented security patches to protect user data
+4. Inicia la aplicación:
 
-## [1.0.0] - 2023-10-25
+npm start
 
-### Added
+5. Abre tu navegador web y accede a `http://localhost:3000` para ver la aplicación en funcionamiento.
 
-- Initial project release
-- Core functionalities, including user registration and login
-- Basic profile creation and editing features
-- Integration with third-party APIs
-- Comprehensive documentation for developers
+## Ejecutando las pruebas ⚙️
 
-### Changed
+Para ejecutar las pruebas automatizadas, utiliza el siguiente comando:
 
-- Improved user interface and user experience
-- Enhanced system stability and performance
-- Updated dependencies to their latest versions
+npm test
 
-### Removed
 
-- Deprecated features and code
-- Unused assets and resources
+### Analiza las pruebas end-to-end 🔩
+
+Las pruebas end-to-end garantizan el correcto funcionamiento de todas las funciones del proyecto. Estas pruebas verifican la integridad del sistema y su coherencia.
+
+### Pruebas de estilo de codificación ⌨️
+
+Las pruebas de estilo de codificación aseguran que el código siga las pautas de estilo y buenas prácticas de codificación. Esto es importante para mantener un código limpio y legible.
+
+## Despliegue 📦
+
+Para desplegar la aplicación en un entorno de producción, sigue los pasos recomendados en nuestra documentación de despliegue.
+
+## Construido con 🛠️
+
+Herramientas y tecnologías utilizadas en este proyecto:
+
+- [React](https://es.reactjs.org/) - Biblioteca de JavaScript para crear interfaces de usuario.
+- [Node.js](https://nodejs.org/) - Entorno de tiempo de ejecución de JavaScript.
+- [MongoDB](https://www.mongodb.com/) - Base de datos NoSQL.
+- [Express](https://expressjs.com/) - Marco de aplicaciones web para Node.js.
+
+## Contribuyendo 🖇️
+
+Por favor, lee nuestro [CONTRIBUTING.md](CONTRIBUTING.md) para conocer detalles sobre nuestro código de conducta y el proceso para enviarnos solicitudes de extracción.
+
+## Wiki 📖
+
+Puedes encontrar más información sobre cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu-usuario/tu-proyecto/wiki).
+
+## Versionado 📌
+
+Seguimos el modelo de versionado SemVer. Para ver todas las versiones disponibles, consulta las [etiquetas en este repositorio](https://github.com/tu-usuario/tu-proyecto/tags).
+
+## Autores ✒️
+
+Menciona a todos aquellos que contribuyeron al proyecto desde sus inicios:
+
+- Andrés Villanueva - Trabajo Inicial - [villanuevand](https://github.com/villanuevand)
+- Fulanito Detal - Documentación - [fulanitodetal](https://github.com/fulanitodetal)
+
+También puedes consultar la lista completa de contribuyentes en este proyecto.
+
+## Licencia 📄
+
+Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE.md](LICENSE.md) para más detalles.
+
+## Expresiones de Gratitud 🎁
+
+- Comenta a otros sobre este proyecto 📢
+- Invita una cerveza 🍺 o un café ☕ a alguien del equipo.
+- ¡Dale las gracias públicamente! 🤓
+
+Hecho con ❤️ por el equipo de Proyecto Ingenioso 😊
+
+---
+Nota: Este es un README ficticio para un proyecto imaginario. Asegúrate de personalizarlo con la información relevante para tu propio proyecto.
